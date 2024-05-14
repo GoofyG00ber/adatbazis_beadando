@@ -1,2 +1,3 @@
 # adatbazis_beadando
-Czanik Csanád adatbázis beadandó
+**Adatbázis beadandó**
+készítette: Czanik Csanád 
