@@ -1,4 +1,8 @@
 # adatbazis_beadando
 **Adatbázis beadandó**
 
-készítette: Czanik Csanád 
+Készítette: Czanik Csanád
+
+Választott téma: autókereskedő adatbázisa
+
+Leírás: lásd modellek
