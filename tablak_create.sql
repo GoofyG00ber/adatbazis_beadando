@@ -1,9 +1,9 @@
 CREATE TABLE Eladasok
 (
   id integer not null IDENTITY(1,1) PRIMARY KEY,
-  car_FK integer not null,
-  customer_FK integer not null,
-  employee_FK integer not null,
+  car_FK integer,
+  customer_FK integer,
+  employee_FK integer,
   eladas_datum date,
 )
 
@@ -54,7 +54,7 @@ CREATE Table Colors (
 
 ALTER TABLE Autók
     ADD CONSTRAINT car_colors_FK FOREIGN KEY ( color_FK )
-        REFERENCES Color ( color_id );
+        REFERENCES Colors ( color_id );
 
 CREATE Table Jobs (
   job_id integer not null IDENTITY(1,1) PRIMARY KEY,
@@ -62,5 +62,5 @@ CREATE Table Jobs (
 )
 
 ALTER TABLE Employee
-    ADD CONSTRAINT jobs_employee_FK FOREIGN KEY ( employee_FK )
+    ADD CONSTRAINT employee_jobs_FK FOREIGN KEY ( job_fk )
         REFERENCES Jobs ( job_id );
