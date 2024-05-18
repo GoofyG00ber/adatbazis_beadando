@@ -1,4 +1,4 @@
-# adatbazis_beadando
+#TANÁRÚR HA EZT LÁTJA KÉREM TÉRJEN VISSZA A VÉGÉN, UTOLSÓ SIMÍTÁSOK ZAJLANAK adatbazis_beadando
 **Adatbázis beadandó**
 
 Készítette: Czanik Csanád AKJ738
